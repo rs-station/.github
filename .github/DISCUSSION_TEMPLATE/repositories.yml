@@ -19,13 +19,13 @@ body:
   - type: textarea
     attributes:
       label: Describe your project. What problem does it solve? What's the use case?
-  - type: input
+  - type: textarea
     attributes:
       label: Why does this project belong on the Reciprocal Space Station?
-  - type: input
+  - type: textarea
     attributes:
-      label: What rs-station admin would you like to sponsor your repo?
-  - type: input
+      label: What rs-station admin would you like to sponsor your repo? (use @username)
+  - type: textarea
     attributes:
       label: More info. Anything else you'd like to tell us? Any citations, likes, or materials of interest?
 
