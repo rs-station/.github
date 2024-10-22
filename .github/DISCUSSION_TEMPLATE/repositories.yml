@@ -16,16 +16,16 @@ body:
   - type: input
     attributes:
       label: Repository authors and contributors
-  - type: markdown
+  - type: input
     attributes:
       label: Describe your project. What problem does it solve? What's the use case?
-  - type: markdown
+  - type: input
     attributes:
       label: Why does this project belong on the Reciprocal Space Station?
   - type: input
     attributes:
       label: What rs-station admin would you like to sponsor your repo?
-  - type: markdown
+  - type: input
     attributes:
       label: More info. Anything else you'd like to tell us? Any citations, likes, or materials of interest?
 
