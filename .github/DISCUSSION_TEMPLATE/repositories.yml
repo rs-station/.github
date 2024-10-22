@@ -1,21 +1,12 @@
 title: "Request to add a repository to rs-station"
 labels: ["Repositories"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Request to migrate your project to rs-station
   - type: dropdown
     attributes: 
       label: Please select the appropriate repository track for your repo. 
       options: 
         - Development (beta) repo
         - Production repo
-  - type: markdown
-    attributes:
-      value: |
-        Please tell us a bit about the repository you want to create or migrate. 
-        Please use "@" to identify a maintainer you would like to sponsor your repo. 
   - type: input
     attributes:
       label: Repository name
@@ -25,16 +16,16 @@ body:
   - type: input
     attributes:
       label: Repository authors and contributors
-  - type: input
+  - type: markdown
     attributes:
       label: Describe your project. What problem does it solve? What's the use case?
-  - type: input
+  - type: markdown
     attributes:
       label: Why does this project belong on the Reciprocal Space Station?
   - type: input
     attributes:
       label: What rs-station admin would you like to sponsor your repo?
-  - type: input
+  - type: markdown
     attributes:
       label: More info. Anything else you'd like to tell us? Any citations, likes, or materials of interest?
 
