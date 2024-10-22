@@ -16,7 +16,7 @@ body:
   - type: input
     attributes:
       label: Repository authors and contributors
-  - type: input
+  - type: textarea
     attributes:
       label: Describe your project. What problem does it solve? What's the use case?
   - type: input
