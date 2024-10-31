@@ -24,7 +24,7 @@ body:
       label: Why does this project belong on the Reciprocal Space Station?
   - type: textarea
     attributes:
-      label: What rs-station admin would you like to sponsor your repo? (use @username to select from the [list of current admins](https://github.com/orgs/rs-station/people))
+      label: What rs-station admin would you like to sponsor your repo? (use @username to select from the [list of current admins](https://github.com/orgs/rs-station/people) )
   - type: textarea
     attributes:
       label: More info. Anything else you'd like to tell us? Any citations, likes, or materials of interest?
